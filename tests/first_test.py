@@ -18,4 +18,4 @@ class TestCalc:
         assert self.calc.adding(self, 3, 3) == 6
 
     def test_exponentiation_calculate_correctly(self):
-        assert self.calc.exponentiation(self, 4, 4)
+        assert self.calc.exponentiation(self, 4, 4) == 256
